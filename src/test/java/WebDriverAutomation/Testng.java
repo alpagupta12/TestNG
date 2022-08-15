@@ -34,7 +34,7 @@ public class Testng {
 		WebElement gTextBox = driver.findElement(By.name("q"));
 
 		gTextBox.sendKeys("Automation");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 
 		WebElement gSearchBox = driver.findElement(By.className("gNO89b"));
 		gSearchBox.click();
