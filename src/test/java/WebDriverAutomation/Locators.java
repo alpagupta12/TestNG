@@ -1,5 +1,8 @@
 package WebDriverAutomation;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Locators {
@@ -8,6 +11,8 @@ public class Locators {
 		// TODO Auto-generated method stub
 
 		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		
 	}
 
 }
